@@ -4,6 +4,7 @@
   "description": "A Node.js EEPROM programmer for the Raspberry Pi",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/loiccattani/node-rp-eeprom-programmer/issues"
   },
-  "homepage": "https://github.com/loiccattani/node-rp-eeprom-programmer#readme"
+  "homepage": "https://github.com/loiccattani/node-rp-eeprom-programmer#readme",
+  "dependencies": {
+    "rpio": "^2.4.2"
+  }
 }
